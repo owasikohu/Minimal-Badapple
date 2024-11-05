@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<meta http-equiv="content-type" charset="utf-8">
+<html>
+<head>
+</head>
+<body>
+
+<iframe src="" id="iframe" width="240" height="160"></iframe>
+<script>
+
+setInterval(getsvg, 500);
+
+let i = 0;
+function getsvg (){
+    document.getElementById("iframe").contentWindow.location.replace(`${i + 1}.svg`);
+    i++
+}
+
+
+</script>
+</body>
+</html>
