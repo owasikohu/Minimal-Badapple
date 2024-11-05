@@ -2,9 +2,9 @@ import cv2
 import ffmpeg
 import numpy as np
 
-ffmpeg.input("./badapple.mp4").filter('fps', fps=1).output("./images/badapple_frame_%04d.png", s='240x160').run()
+ffmpeg.input("./badapple.mp4").filter('fps', fps=2).output("./images/badapple_frame_%04d.png", s='240x160').run()
 
-frame = 219
+frame = 438
 
 for i in range(frame):
 
@@ -14,7 +14,7 @@ for i in range(frame):
 
     svg_polygons = []
     for contour in contours:
-        polygon = cv2.approxPolyDP(contour, epsilon=1, closed=True)
+        polygon = cv2.approxPolyDP(contour, epsilon=5, closed=True)
         points = " ".join([f"{p[0][0]},{p[0][1]}" for p in polygon])
         svg_polygons.append(f"<polygon points='{points}' fill='black' />")
 

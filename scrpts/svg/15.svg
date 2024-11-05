@@ -1,3 +1,6 @@
 <svg xmlns='http://www.w3.org/2000/svg'>
-<polygon points='0,0 0,159 239,159 239,0' fill='black' />
+<polygon points='186,138 183,159 191,159 183,148' fill='black' />
+<polygon points='131,84 143,76 134,75' fill='black' />
+<polygon points='205,0 212,26 205,38 217,56 208,60 196,105 210,127 214,121 221,125 239,158 239,0' fill='black' />
+<polygon points='0,0 0,159 93,159 121,144 126,55 114,37 122,9 175,0' fill='black' />
 </svg>

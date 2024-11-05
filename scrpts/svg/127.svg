@@ -1,6 +1,37 @@
 <svg xmlns='http://www.w3.org/2000/svg'>
-<polygon points='24,150 22,148 18,149 4,158 0,159 25,159' fill='black' />
-<polygon points='47,147 52,159 70,159 63,158' fill='black' />
-<polygon points='13,139 9,137 0,136 0,150 9,145' fill='black' />
-<polygon points='0,52 0,115 7,116 18,120 9,109 7,102 7,94 9,87 14,78 20,81 36,96 40,102 40,110 49,100 56,95 68,89 100,79 102,81 89,108 76,122 63,129 74,130 85,136 108,156 107,159 144,159 150,153 153,156 157,156 158,157 156,159 235,159 236,157 239,159 239,115 229,112 225,116 223,125 220,126 216,122 213,123 213,126 216,128 217,131 213,140 214,144 211,145 204,143 196,136 181,130 163,109 157,107 154,109 152,108 151,111 148,109 146,112 143,109 136,92 136,88 138,85 151,85 174,92 183,78 189,76 210,91 213,91 221,85 226,86 232,92 235,102 239,102 239,0 193,0 207,11 233,24 237,28 235,38 220,55 211,60 199,64 171,65 163,62 161,59 161,43 155,53 150,58 141,57 129,50 122,43 114,30 109,17 108,6 112,2 133,0 70,0 67,5 75,10 86,20 86,23 83,26 71,33 81,52 81,58 78,60 61,58 49,54 44,64 40,68 37,68 19,56 17,56 11,61 7,61' fill='black' />
+<polygon points='17,139' fill='black' />
+<polygon points='166,122' fill='black' />
+<polygon points='191,115' fill='black' />
+<polygon points='219,106 213,110 219,115 215,143 221,159 231,159 228,134 239,137' fill='black' />
+<polygon points='199,104 195,116 206,111' fill='black' />
+<polygon points='219,89' fill='black' />
+<polygon points='229,82' fill='black' />
+<polygon points='234,80' fill='black' />
+<polygon points='208,79' fill='black' />
+<polygon points='18,76' fill='black' />
+<polygon points='208,75' fill='black' />
+<polygon points='158,72' fill='black' />
+<polygon points='195,68' fill='black' />
+<polygon points='196,64' fill='black' />
+<polygon points='172,64' fill='black' />
+<polygon points='195,60' fill='black' />
+<polygon points='166,59' fill='black' />
+<polygon points='192,57' fill='black' />
+<polygon points='165,57' fill='black' />
+<polygon points='171,56' fill='black' />
+<polygon points='49,50' fill='black' />
+<polygon points='188,47' fill='black' />
+<polygon points='190,46' fill='black' />
+<polygon points='144,43' fill='black' />
+<polygon points='159,41' fill='black' />
+<polygon points='183,40' fill='black' />
+<polygon points='39,33' fill='black' />
+<polygon points='154,31' fill='black' />
+<polygon points='50,20' fill='black' />
+<polygon points='228,74 217,80 220,70 206,83 201,67 193,77 188,70 171,73 187,67 180,64 192,59 183,55 172,70 154,77 164,60 157,62 183,51 172,50 181,43 167,52 171,42 150,63 154,57 143,60 143,51 155,37 142,48 136,27 119,19 98,21 88,44 49,63 48,81 31,101 34,109 21,112 26,118 13,134 19,137 16,159 32,156 27,145 34,114 65,132 118,131 132,123 140,127 134,159 150,159 151,123 159,127 156,121 164,121 158,118 187,98 221,91' fill='black' />
+<polygon points='162,13' fill='black' />
+<polygon points='160,11' fill='black' />
+<polygon points='64,11' fill='black' />
+<polygon points='211,9' fill='black' />
+<polygon points='146,2' fill='black' />
 </svg>
