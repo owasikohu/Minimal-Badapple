@@ -1,2 +1,2 @@
 # Minimal-Badapple
-Compress badapple video to the limit.
+Badapple on GBA and e-reader cartridge
