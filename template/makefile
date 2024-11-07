@@ -1,4 +1,4 @@
-PATH = /bin:$(DEVKITARM)/bin:../../bin:/opt/devkitpro/tools/bin
+PATH = /bin:$(DEVKITARM)/bin:../bin:/opt/devkitpro/tools/bin
 
 PATH_LIB_GCC = $DEVKITARM/arm-none-eabi/lib/thumb
 
@@ -48,13 +48,13 @@ build/$(TARGET).vpk : build/$(TARGET).bin
 build/$(TARGET).bin : build/$(TARGET).elf
 	$(OBJCOPY) -O binary "$<" "$@"
 
-build/$(TARGET).elf : build/crt0.o build/$(TARGET).o ../../lib/ereader.ld
-	$(LD) build/crt0.o build/$(TARGET).o  -L $(PATH_LIB_GCC) -T ../../lib/ereader.ld -O3 -o "$@"
+build/$(TARGET).elf : build/crt0.o build/$(TARGET).o ../lib/ereader.ld
+	$(LD) build/crt0.o build/$(TARGET).o  -L $(PATH_LIB_GCC) -T ../lib/ereader.ld -O3 -o "$@"
 
 build/$(TARGET).o : $(TARGET).c gfx/gfx.c 
-	$(GCC) -I ../../lib -mthumb -c -O3 -o "$@" "$<"
+	$(GCC) -I ../lib -mthumb -c -O3 -o "$@" "$<"
 
-build/crt0.o : ../../lib/crt0.s
+build/crt0.o : ../lib/crt0.s
 	$(AS) -o "$@" "$<"
 
 
