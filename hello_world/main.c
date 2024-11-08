@@ -6,7 +6,7 @@ extern int __end[];
 const u16 palette[] = { 0x0000, 0xFFFF };
 
 const u8 hello[] = { 130, 103, 130, 133, 130, 140, 130, 140, 130, 143, 129, 64, 130, 151, 130, 143,
-130, 146, 130, 140, 130, 132, 129, 73, 129, 73 };
+130, 146, 130, 140, 130, 132, 129, 73, 129, 73 }; //shift-jis
 
 //これがないとDrawTextが正常に描画されない。は？
 const unsigned short gfxSharedPal[4] __attribute__((aligned(4))) __attribute__((visibility("hidden")))= {

@@ -7,7 +7,7 @@
 //	+ 16 tiles not compressed
 //	Total size: 512 = 512
 //
-//	Time-stamp: 2024-11-08, 22:55:24
+//	Time-stamp: 2024-11-08, 22:57:55
 //	Exported by Cearn's GBA Image Transmogrifier, v0.9.2
 //	( http://www.coranac.com/projects/#grit )
 //
@@ -62,7 +62,7 @@ const unsigned char marioTiles[512] __attribute__((aligned(4))) __attribute__((v
 //	+ palette 4 entries, not compressed
 //	Total size: 8 = 8
 //
-//	Time-stamp: 2024-11-08, 22:55:24
+//	Time-stamp: 2024-11-08, 22:57:55
 //	Exported by Cearn's GBA Image Transmogrifier, v0.9.2
 //	( http://www.coranac.com/projects/#grit )
 //
