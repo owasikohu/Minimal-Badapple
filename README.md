@@ -1,2 +1,2 @@
-# Minimal-Badapple
-Badapple on GBA and e-reader cartridge
+# e-reader-jp
+Goal is to run Bad apple MV on e-reader.
