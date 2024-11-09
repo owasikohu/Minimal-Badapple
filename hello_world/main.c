@@ -13,8 +13,7 @@ const unsigned short gfxSharedPal[4] __attribute__((aligned(4))) __attribute__((
 	0x7C1F,0x7FFF,0x281F,0x123B,
 };
 
-int main()
-{
+int main() {
   ERAPI_HANDLE_REGION region;
   u32 key, quit;
   // init
@@ -32,8 +31,7 @@ int main()
 
   // loop
   quit = 0;
-  while (quit == 0)
-  {
+  while (quit == 0) {
     // read keys
     key = ERAPI_GetKeyStateRaw();
     // quit
